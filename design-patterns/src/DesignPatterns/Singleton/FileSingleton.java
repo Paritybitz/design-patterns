@@ -9,14 +9,14 @@ public class FileSingleton {
     private FileSingleton() {
     }
 
-    public static FileSingleton getInstance() {
+    public static synchronized FileSingleton getInstance() {
         if (INSTANCE == null)
             INSTANCE = new FileSingleton();
 
         return INSTANCE;
     }
 
-    public File createFile(String fileName) {
+    public synchronized File createFile(String fileName) {
         if (file == null) {
             try {
                 File file = new File(fileName);
@@ -34,5 +34,11 @@ public class FileSingleton {
 
     public File getFile() {
         return file;
+    }
+
+    public static void main(String[] args) {
+        FileSingleton fileSingleton = FileSingleton.getInstance();
+        File file = fileSingleton.createFile("text.txt");
+        File file2 = fileSingleton.createFile("text.txt");
     }
 }
