@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class GenArr {
 
 
-    public static <anything> void displayArray(anything [] arr) {
+    public static <T> void displayArray(T [] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
 
-        for (anything i  : arr){
+        for (T i  : arr){
             System.out.print(i + " ");
         }
 
