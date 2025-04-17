@@ -3,7 +3,7 @@ package DesignPatterns.Flyweight;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Point { // After Flyweighting
+public class Point {
     private final int x, y; // immutable
     private static Map<String, Point> instances = new HashMap<String, Point>();
 
@@ -34,6 +34,6 @@ public class Point { // After Flyweighting
         Point p1 = Point.getInstance(1, 2);
         Point p2 = Point.getInstance(1, 2);
         System.out.println(p1 == p2); // true, same instance
-        
+
     }
 }
