@@ -2,7 +2,7 @@ package Generics;
 
 import java.util.ArrayList;
 
-public class GenArr {
+public class Arrays {
 
 
     public static <T> void displayArray(T [] arr) {
@@ -17,7 +17,7 @@ public class GenArr {
 
     }
 
-    public static <anything> void getFirstElement(anything [] arr){
+    public static <T> void getFirstElement(T [] arr){
         System.out.println(arr[0]);
     }
 
