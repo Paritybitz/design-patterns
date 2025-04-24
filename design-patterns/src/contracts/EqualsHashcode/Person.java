@@ -31,7 +31,7 @@ public class Person {
 
     //Bloch Equals
 
-    //EQUALS CHECK: Is it SYMMETRIC? Is it TRANSITIVE? Is it CONSOSTENT?
+    //EQUALS CHECK: Is it SYMMETRIC? Is it TRANSITIVE? Is it CONSISTENT?
 
     //parameter type must be Object
     @Override
