@@ -1,4 +1,4 @@
-package module_01.abstraction;
+package abstraction;
 
 public abstract class Animal implements Speak {
     private String name;

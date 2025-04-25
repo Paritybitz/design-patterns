@@ -1,4 +1,4 @@
-package module_01.abstraction;
+package abstraction;
 
 public class Human extends Mammals implements Speak {
     private String name;

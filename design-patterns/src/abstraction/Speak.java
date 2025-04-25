@@ -1,4 +1,4 @@
-package module_01.abstraction;
+package abstraction;
 
 /**
  * Some animals speak.

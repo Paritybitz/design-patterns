@@ -1,7 +1,12 @@
-package module_01.abstraction;
+package abstraction;
 
 public class Birds extends Vertibrate implements Speak {
     
+    public Birds(String name) {
+        super(name);
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
     public void eat() {
         System.out.println("Birds eat seeds, insects, and fruits.");

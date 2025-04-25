@@ -1,4 +1,4 @@
-package module_01.abstraction;
+package abstraction;
 
 public class Main {
     public static void main(String[] args) throws Exception {

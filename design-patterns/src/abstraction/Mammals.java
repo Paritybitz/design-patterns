@@ -1,9 +1,10 @@
-package module_01.abstraction;
+package abstraction;
 
 public abstract class Mammals extends Vertibrate {
 
     // Mammals vertebrate animals, so they inherit from Vertibrate
-    public Mammals() {
+    public Mammals(String name) {
+        super(name);
     }
     
     @Override

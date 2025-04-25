@@ -1,10 +1,10 @@
-package module_01.abstraction;
+package abstraction;
 
-public class Dog extends Animal implements Speak {
+public class Dog extends An                                                                                                                                                                                                                                                                                                                                                                                                           imal implements Speak {
     private String name;
 
     public Dog(String name) {
-        super(); // Call the constructor of the superclass Animal
+        super(name); // Call the constructor of the superclass Animal
         this.name = name;
     }
 

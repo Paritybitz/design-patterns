@@ -1,9 +1,9 @@
-package module_01.abstraction;
+package abstraction;
 
 public abstract class Vertibrate extends Animal {
 
-    public Vertibrate() {
-        super();
+    public Vertibrate(String name) {
+        super(name);
     }
 
 }
