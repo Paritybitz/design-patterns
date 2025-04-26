@@ -5,7 +5,8 @@ public class Address implements Cloneable {
     public String city;    
     public String state;
     public int zip;
-
+    
+    
     public Address(String street, String city, String state, int zip){        
         this.street = street;
         this.city = city;
