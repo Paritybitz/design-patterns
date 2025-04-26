@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Point",
+            "request": "launch",
+            "mainClass": "DesignPatterns.Flyweight.Point",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Iterators",
+            "request": "launch",
+            "mainClass": "DesignPatterns.Iterator.Iterators",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "FileSingleton",
+            "request": "launch",
+            "mainClass": "DesignPatterns.Singleton.FileSingleton",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "LoggerSingleton",
+            "request": "launch",
+            "mainClass": "DesignPatterns.Singleton.LoggerSingleton",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Generics.Arrays",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Generics.Comparable.Main",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "WildcardSandbox",
+            "request": "launch",
+            "mainClass": "Generics.Comparable.WildcardSandbox",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "ListWildCards",
+            "request": "launch",
+            "mainClass": "Generics.ListWildCards",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "abstraction.Main",
+            "projectName": "object-oriented-design_96baff0d"
+        },
+        {
+            "type": "java",
+            "name": "Cloner",
+            "request": "launch",
+            "mainClass": "cloning.Cloner",
+            "projectName": "object-oriented-design_96baff0d"
+        }
+    ]
+}
